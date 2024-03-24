@@ -1,1 +1,1 @@
-select * fro DBT_TEST.DBT_SCHEMA.COUNTRY
+select * from DBT_TEST.DBT_SCHEMA.COUNTRY
