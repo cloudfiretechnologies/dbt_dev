@@ -1,0 +1,1 @@
+select * fro DBT_TEST.DBT_SCHEMA.COUNTRY

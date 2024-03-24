@@ -11,4 +11,4 @@ with temp_tbl as (
 union all
 (select * from {{ ref('my_third_dbt_model') }})
 )
-select * from temp_tbl
+select count(*) from temp_tbl
