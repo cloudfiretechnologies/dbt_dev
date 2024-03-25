@@ -6,4 +6,4 @@
 
 
 
-select * from DBT_TEST.DBT_SCHEMA.REGION
+select * from DBT_TEST.DBT_SCHEMA.LOCATIONS
