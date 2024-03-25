@@ -1,1 +1,9 @@
-select * from DBT_TEST.DBT_SCHEMA.REGION
+{{
+    config(
+        materialized='table'
+    )
+}}
+
+
+
+select * from DBT_TEST.DBT_SCHEMA.COUNTRY

@@ -6,4 +6,4 @@
 
 
 
-select * from DBT_TEST.DBT_SCHEMA.EMPLOYEE
+select * from DBT_TEST.DBT_SCHEMA.REGION
