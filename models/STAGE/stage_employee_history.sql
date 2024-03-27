@@ -5,8 +5,8 @@
 }}
 
 
-{% set start_date ='1993-01-01' %}   --- variable declaration
-{% set end_date ='1997-08-31' %} 
+{%- set start_date ='1993-01-01' -%}   --- variable declaration
+{%- set end_date ='1997-08-31' -%} 
 
 
 
