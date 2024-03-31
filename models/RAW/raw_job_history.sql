@@ -6,4 +6,4 @@
 
 
 
-select * from DBT_TEST.DBT_SCHEMA.JOB_HISTORY
+select * from {{ source('hr_info', 'job_history') }}

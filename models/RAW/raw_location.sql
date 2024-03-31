@@ -5,5 +5,4 @@
 }}
 
 
-
-select * from DBT_TEST.DBT_SCHEMA.LOCATIONS
+select * from {{ source('hr_info', 'locations') }}

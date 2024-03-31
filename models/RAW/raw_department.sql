@@ -6,4 +6,4 @@
 
 
 
-select * from DBT_TEST.DBT_SCHEMA.DEPARTMENT
+select * from {{ source('hr_info', 'department') }}

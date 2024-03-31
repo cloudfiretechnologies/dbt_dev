@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: hr_info
+    database: DBT_TEST
+    schema: DBT_SCHEMA
+    tables:
+      - name: country
+      - name: customers
+      - name: department
+      - name: employee
+      - name: jobs
+      - name: job_history
+      - name: locations
+      - name: orders
+
+  - name: product_info
+    database: DBT_TEST
+    schema: DBT_SCHEMA
+    tables:
+      
+      - name: product
+      - name: region
