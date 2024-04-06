@@ -14,3 +14,12 @@ inner join {{ ref('raw_department') }}  d
 select e.department_id from {{ ref('raw_employee') }}  e 
 group by e.department_id having count(e.department_id) >= 2
 ) group by c.country_name, l.city
+
+
+
+select * from {{ ref('raw_location') }}  -- LOCATION_ID
+
+select * from {{ ref('raw_department') }} --- DEPARTMENT_ID
+
+
+select * from {{ ref('raw_employee') }} ----- EMPLOYEE_ID
