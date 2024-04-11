@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: raw_department
+    columns:
+      - name: DEPARTMENT_NAME
+        tests:
+          - unique
+          - not_null
+
+      - name: MANAGER_ID
+        tests:
+          - accepted_values:
+              values: ["200", "201", "203", "121"]
+
+      - name: LOCATION_ID
+        tests:
+          - unique
+
+      - name: DEPARTMENT_ID
+        tests:
+          - relationships:
+              to: ref('raw_employee')
+              field: DEPARTMENT_ID
+      
+
+

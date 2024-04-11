@@ -9,6 +9,12 @@ sources:
       - name: customers
       - name: department
       - name: employee
+        columns:
+          - name: employee_id
+            tests:
+              - unique
+              - not_null
+              
       - name: jobs
       - name: job_history
       - name: locations
