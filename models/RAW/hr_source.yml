@@ -6,6 +6,7 @@ sources:
     schema: DBT_SCHEMA
     tables:
       - name: country
+      - name: raw_product
       - name: customers
       - name: department
       - name: employee
